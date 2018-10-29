@@ -9,7 +9,7 @@ public class SortingHat {
      *  Calling the .sorted() method on a stream of strings will compare
      *  two strings lexicographically and is based on the unicode value
      *  of each character in the string. "aAbaBb" => "ABaabb".
-     *  However want our sort to do: "aAbaBb" => "AaaBbb".
+     *  However we want our sort to do: "aAbaBb" => "AaaBbb".
      *  Sorting on natural order first and then sorting the result ignoring
      *  the case gives us the desired outcome.
      */
