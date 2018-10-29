@@ -5,6 +5,8 @@ public class Student implements Comparable<Student> {
     private long regNumber;
     private String firstName, lastName, city;
 
+    public Student() {}
+
     public Student(long regNumber, String firstName, String lastName, String city) {
         this.regNumber = regNumber;
         this.firstName = firstName;
